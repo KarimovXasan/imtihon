@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hrefting {
+    margin-left: 45px;
+    display: flex;
+    gap: 25px;
+}
+
+#btn-nav {
+    border: none;
+    padding: 14px 30px;
+    border-radius: 5px;
+    background-color: #DC780B;
+    color: white;
+}
+
+/* header-qismi */
+.header-teg {
+    display: flex;
+    align-items: center;
+}
+
+[btn1] {
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #DC780B;
+    color: white;
+}
+
+
+[btn2] {
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #DC780B;
+}
+
+/* Main qismi */
+.mainqismi {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #EAAD69;
+}
+
+.h3-tag {
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.opajon {
+    border-radius: 30px;
+}
+
+.opa {
+    display: flex;
+    align-items: center;
+
+}
+
+.opajoni {
+    border-radius: 15px;
+}
+
+.btn3 {
+    border: none;
+    padding: 12px 30px;
+    background-color: #DC780B;
+    border-radius: 5px;
+    color: white;
+}
+
+.h2-tag {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #EAAC6A;
+}
+
+.b-yag {
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.paragraf {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.divboy{
+    text-align: center;
+}
+
+
+.btn-main{
+    padding: 11px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #DC780B;
+}
+
+.cards{
+    display: flex;  
+}
+.cards2{
+    display: flex;
+}
